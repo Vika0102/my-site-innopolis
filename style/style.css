@@ -1,0 +1,305 @@
+body{
+    background: url(../img/розы\ \(2\).png);
+    background-color: #fff;
+    color: #993300;
+    background-repeat: no-repeat;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    height: 1060px;
+    margin: 0;
+}
+
+/*header*/
+
+.subscribe{
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1300px;
+    min-height: 90px;
+    background-color: #FF6633;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.logo-girl{
+    width: 100%;
+    width: 60px; 
+    height: 70px;
+    margin: 16px;
+}
+
+.welcom{
+    color: bisque;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.news{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 16px;
+    background-color: bisque;
+    max-width: 186px;
+    min-height: 30px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    justify-content: center;
+    align-items: center;
+    color: #EA5D21;
+    border-radius: 30px;
+}
+
+/*pop-up*/
+
+.mailing-pop-up{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    bottom: 66%;
+    left: 50%;
+    transform: translate(-7%,-140%);
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 500px;
+    min-height: 418px;
+    padding: 26px 28px 50px;
+    background: #FFF;
+    border: 1px solid #213B7E;
+    background-color: #FFF;
+}
+
+.mailing-heading{
+    width: 100%;
+    max-width: 442px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    text-align: center;
+}
+
+.mail-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mail-input > input{
+    width: 100%;
+    display: flex;
+    max-width: 500px;
+    min-height: 55px;
+    margin-bottom: 56px;
+    border: 1px solid #808080;
+}
+
+.mail-input{
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #FFF;
+    border: 1px solid #808080;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #808080;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.pop-up-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 153px;
+    min-height: 50px;
+    border: 1px solid #808080;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #EA6113;
+    border: none;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.show-popup{
+    display: block;
+}
+
+/*main*/
+
+.content{
+    position: relative;
+    flex-grow: 1;
+    width: 100%;
+    max-width: 911px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.content-heading{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.leftimg{
+    position: relative;
+    float: left;
+    margin: 20px;
+    border-radius: 20px;
+    max-width: 300px;
+    max-height: 300px;
+    width: 100%;
+}
+
+.text{
+    text-align: justify;
+}
+
+.photo{
+    border-radius: 30px;
+    width: 100%;
+}
+
+.color-box{
+    display: flex;
+    justify-content: space-around;
+    max-width: 911px;
+    max-height: 90px;
+    width: 100%;
+}
+
+.color-blue{
+    display: flex;
+    width: 100%;
+    width: 90px;
+    height: 90px;
+    background-color: dodgerblue;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-red{
+    display: flex;
+    width: 100%;
+    width: 90px;
+    height: 90px;
+    background-color: crimson;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-green{
+    display: flex;
+    width: 100%;
+    width: 90px;
+    height: 90px;
+    background-color: forestgreen;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-violet{
+    display: flex;
+    width: 100%;
+    width: 90px;
+    height: 90px;
+    background-color: darkorchid;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-background{
+    background-color: darksalmon;
+    color: #fff;
+}
+
+.link-color{
+    color: #18E1C5;
+}
+
+.quote{
+    display: flex;
+    background-color: beige;
+    border-radius: 50%;
+    width: 100%;
+    max-width: 500px;
+    max-width: 350px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.dogs-and-cats{
+    width: 100%;
+    max-width: 512px;
+    max-height: 512px;
+}
+
+.cats{
+    width: 100%;
+    max-width: 512px;
+    max-height: 512px;
+}
+
+.dogs{
+    width: 100%;
+    max-width: 512px;
+    max-height: 512px; 
+}
+
+
+/*footer*/
+
+.footer{
+    display: block;
+    width: 100%;
+    max-width: 1300px;
+    min-height: 200px;
+    background-color: #FF6633;
+    border-radius: 30px;
+    color: bisque;
+    text-align: center;
+    margin: auto;
+}
+
+.forma{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.fig{
+    padding-left: 5px;
+}
+
+.background-color{
+    background-color:bisque;
+    border: #FFF;
+}
+
