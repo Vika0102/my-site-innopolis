@@ -19,4 +19,4 @@ mailingPopUp.addEventListener('click', (e) => {
     if (e.target.classList.cotainers('show-popup')) {
         close ();
     }
-})
+}
